@@ -1,0 +1,84 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #222222;
+    color: #F7F7F7;
+}
+
+#gameContainer {
+    display: grid;
+    justify-content: center;
+    height: 80vh;
+    align-content: center;
+    background-color: inherit;
+}
+
+#player1 {
+    float: left;
+    font-size: 25px;
+}
+
+#player2 {
+    float: right;
+    font-size: 25px;
+}
+
+#announcementsContainer {
+    display: grid;
+    text-align: center;
+    justify-content: center;
+}
+
+#announcement {
+    padding: 35px;
+    background-color: transparent;
+    color: rgb(139, 207, 36);
+}
+
+#gameBoard {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 600px;
+    height: 600px;
+}
+
+.field {
+    display: grid;
+    height: 200px;
+    width: 200px;
+    border: #515151 solid 1px;
+    background-color: #3B3B3B;
+    color: #F7F7F7;
+    justify-content: center;
+    align-content: center;
+    cursor: pointer;
+    font-size: 120px;
+}
+
+.field:hover {
+    background-color: #3b3b3b8e;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 10px;
+    width: 100%;
+    background-color: inherit;
+    color: white;
+    text-align: center;
+}
+
+#buttons {
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+button {
+    cursor: pointer;
+    background-color: #3B3B3B;
+    color: #F7F7F7;
+    padding: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
